@@ -1,0 +1,21 @@
+{
+  "name": "sudoku-json-api",
+  "version": "1.0.0",
+  "description": "Api for getting a sudoku puzzle",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "2.6.1",
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.5"
+  },
+  "nodemonConfig": {
+    "verbose": true
+  }
+}
